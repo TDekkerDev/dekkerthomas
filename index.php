@@ -1,4 +1,5 @@
-<?php include "php/inculude/header.php"; ?>
-<h1>Welcome to my website</h1>
+<?php include "php/include/header.php"; ?>
 
-<?php include "php/inculude/footer.php"; ?>
+<button><span>Resume</span></button>
+
+<?php include "php/include/footer.php"; ?>
