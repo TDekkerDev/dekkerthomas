@@ -3,9 +3,11 @@
 <head>
     <script type="text/javascript" defer src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" defer src="/js/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/background.css">
     <link rel="stylesheet" href="/css/buttons.css">
