@@ -14,3 +14,100 @@
   left:0px;
   z-index:21;
 }
+
+.typewriter{
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translatex(-50%);
+  position:relative;
+  width:750px;
+}
+
+.typewriter h1 {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  -webkit-animation: typing 4.5s steps(30, end), blink-caret 0.5s step-end infinite;
+          animation: typing 4.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@-webkit-keyframes typing {
+  from {
+  width: 0;
+  }
+  to {
+  width: 100%;
+  }
+}
+@keyframes typing {
+  from {
+  width: 0;
+  }
+  to {
+  width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@-webkit-keyframes blink-caret {
+  from, to {
+  border-color: transparent;
+  }
+  50% {
+  border-color: orange;
+  }
+}
+@keyframes blink-caret {
+  from, to {
+  border-color: transparent;
+  }
+  50% {
+  border-color: rgb(216, 216, 216);
+  }
+}
+
+#text{
+  width:1000px;
+
+}
+
+#hello{
+  margin-left: 10%;
+  font-family: 'Roboto Serif', serif;
+  font-size: 25px;
+  border: solid 1px #9e9e9e;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background-color: #9e9e9e;
+  width: 65%;
+}
+
+#me{
+  margin-left: 90%;
+  font-family: 'Roboto Serif', serif;
+  font-size: 25px;
+  border: solid 1px #9e9e9e;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  background-color: #9e9e9e;
+  width: 65%;
+}
+
+
+

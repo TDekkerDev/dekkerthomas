@@ -2,12 +2,26 @@
 <script>
   AOS.init();
 </script>
+<div id = "text">
+    <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
+      <article id = "hello">
+      Hello my name is Thomas dekker. <br>
+      I am 17 years old.<br>
+      I am a student at the Horizon colege in hoorn.<br>
+      And I do programming as my education.<br>
+      </article>
+      
 
-<div data-aos="fade-right"  data-aos-duration="3000" data-aos-easing="ease-in-sine">
-<h1>Toe lot sap ten europeesch ongunstige verscholen plotseling. Als geheelen tot parasiet verwoest. Bijzonders toe feestdagen dit verzekeren doorzoeken goa herkenbaar. Moest en alais om nemen zijde zesde in. De of vreezen witheid al slechts al hiertoe. Langs geven er al ficus heele ik cenis. Het leeningen mee nutteloos bezorgden weg. Voorloopig rug was inboorling dik voorloopig ongebruikt. In roestige geslaagd er minerale is bespaart op. Bespaart beroemde selangor en al nu.
-</h1>
+    </div>
 
-</div>
+    <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
+      <article id = "me">
+      this is me:<br>
+      <img src="/media/img/thomas.jpg" alt="Thomas dekker" id = "thomas">
+      </article>
+
+    </div>
+<div>
 
 
 
