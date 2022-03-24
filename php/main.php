@@ -19,6 +19,7 @@
       this is me:<br>
       <img src="/media/img/thomas.jpg" alt="Thomas dekker" id = "thomas">
       </article>
+      
 
     </div>
 <div>

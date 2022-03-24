@@ -1,7 +1,7 @@
 <?php include "php/include/header.php"; ?>
-        
+<div id = "boks"></div>
             <div id="resumebox1" style="inline-block">
-                        <div class="typewriter">
+                        <div id = "typewriterid" class="typewriter">
                             <h1>Do you want to continue...</h1>
                         </div>
             <div id="boxing">
