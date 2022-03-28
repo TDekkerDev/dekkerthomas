@@ -10,7 +10,7 @@ function resume(){
             vid.play(); 
                 setTimeout(function(){
                     document.getElementById("myVideo").style.display = "none";
-                    vid.stop(); 
+                    window.location.href = "php/main.php";
             }, 5500); 
         }, 300); 
 
