@@ -8,7 +8,12 @@ function resume(){
         setTimeout(function(){
             document.getElementById("myVideo").style.display = "inline-block";
             vid.play(); 
+                setTimeout(function(){
+                    document.getElementById("myVideo").style.display = "none";
+                    vid.stop(); 
+            }, 5500); 
         }, 300); 
+
     }, 3000); 
     
 }
@@ -17,3 +22,7 @@ function no(){
     document.getElementById("frame").style.display = "inline-block";
 }
 
+function admin(){
+    alert("Admin");
+    window.location.href = "php/admin.php";
+}

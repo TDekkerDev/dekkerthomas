@@ -3,6 +3,7 @@
   AOS.init();
 </script>
 <div id = "text">
+  
     <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
       <article id = "hello">
       Hello my name is Thomas dekker. <br>
@@ -14,7 +15,7 @@
 
     </div>
 
-    <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
+    <div data-aos="fade-left"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
       <article id = "me">
       this is me:<br>
       <img src="/media/img/thomas.jpg" alt="Thomas dekker" id = "thomas">

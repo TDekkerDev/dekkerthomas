@@ -1,5 +1,8 @@
 <?php include "php/include/header.php"; ?>
 <div id = "boks"></div>
+                <div id = "admin">
+                    <h3 onclick="admin()">Admin</h3>
+                </div>
             <div id="resumebox1" style="inline-block">
                         <div id = "typewriterid" class="typewriter">
                             <h1>Do you want to continue...</h1>
