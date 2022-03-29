@@ -21,11 +21,13 @@
       </div>
 
       <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
-        <article id = "hello">
-          Hello my name is Thomas dekker. <br>
-          I am 17 years old.<br>
-          I am a student at the Horizon colege in hoorn.<br>
-          And I do programming as my education.<br>
+        <article id = "skillsbox">
+          <h2>skills</h2><br>
+          <h3 class = "skillstext">php:</h3><div class = "skillsbar"></div>
+          <h3 class = "skillstext">javascript:</h3><div class = "skillsbar"></div>
+          <h3 class = "skillstext">sql:</h3><div class = "skillsbar"></div>
+          <h3 class = "skillstext">c#:</h3><div class = "skillsbar"></div>
+          <h3 class = "skillstext">css:</h3><div class = "skillsbar"></div>
         </article>
     </div>
 </div>
