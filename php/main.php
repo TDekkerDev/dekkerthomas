@@ -1,9 +1,38 @@
-<?php include "include/header.php"; ?>
 <div class="main">
+<?php include "include/header.php"; ?>
   <script>
     AOS.init();
   </script>
-  <div id = "text">
+
+<div class="container_header" >
+
+  <div class="Photo_name"  >
+  <img src="/media/img/thomas.jpg" alt="Thomas dekker" id = "thomas">
+  <h1>Thomas Dekker</h1>
+</div>
+</div>
+
+<div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="profielschets shadow-diffuse">
+      <article id = "skillsbox">
+        <h2>skills</h2><br>
+        <h3 class = "skillstext">php:</h3><div class = "skillsbar"><div id = "skillsphp"></div></div>
+        <h3 class = "skillstext">javascript:</h3><div class = "skillsbar"><div id = "skillsjs"></div></div>
+        <h3 class = "skillstext">sql:</h3><div class = "skillsbar"><div id = "skillssql"></div></div>
+        <h3 class = "skillstext">c#:</h3><div class = "skillsbar"><div id = "skillsc"></div></div>
+        <h3 class = "skillstext">css:</h3><div class = "skillsbar"><div id = "skillscss"></div></div>
+      </article>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <!-- <div id = "text">
     
       <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <article id = "hello">
@@ -32,7 +61,7 @@
           </article>
       </div>
   </div>
-</div>
+</div> -->
 
 
 
