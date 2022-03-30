@@ -33,17 +33,10 @@
   </div>
 
 
+  <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_logo shadow-diffuse" >
+    <img src="/media/img/logo-explanation.jpg" alt="logo-explanation">
+  </div>
 
 
-  <!-- <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="profielschets shadow-diffuse">
-        <article id = "skillsbox">
-          <h2>skills</h2><br>
-          <h3 class = "skillstext">php:</h3><div class = "skillsbar"><div id = "skillsphp"></div></div>
-          <h3 class = "skillstext">javascript:</h3><div class = "skillsbar"><div id = "skillsjs"></div></div>
-          <h3 class = "skillstext">sql:</h3><div class = "skillsbar"><div id = "skillssql"></div></div>
-          <h3 class = "skillstext">c#:</h3><div class = "skillsbar"><div id = "skillsc"></div></div>
-          <h3 class = "skillstext">css:</h3><div class = "skillsbar"><div id = "skillscss"></div></div>
-        </article>
-  </div> -->
 
 <?php include "include/footer.php"; ?>
