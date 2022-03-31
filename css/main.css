@@ -7,11 +7,10 @@
   height: 300%;
   display: flex;
   justify-content: center;
-  background-image: url(/suuu.jpg) !important;
 }
 
 .container_header{
-  margin-top: 25vh;
+  margin-top: 40vh;
   padding-top: 7vh;
   padding-left: 12vh;
   background-color: #555555;
@@ -78,7 +77,7 @@
 
 .container_skills{
   position: absolute;
-  margin-top: 75vh;
+  margin-top:  110vh;
   padding-top: 3vh;
   padding-left: 5vh;
   background-color: #555555;
@@ -90,7 +89,7 @@
 
 .container_logo{
   position: absolute;
-  margin-top: 125vh;
+  margin-top:  180vh;
   padding-top: 3vh;
   padding-left: 5vh;
   background-color: #555555;
@@ -98,6 +97,20 @@
   height: 40vh;
   background-color: #f5f5f5;
   display: flex;
+  
+}
+
+.header_portfolio{
+  position: absolute;
+  margin-top:  180vh;
+  padding-top: 3vh;
+  padding-left: 5vh;
+  background-color: #555555;
+  width: 95vh;
+  height: 120vh;
+  background-color: #f5f5f5;
+  display: flex;
+  
 }
 
 #logo{

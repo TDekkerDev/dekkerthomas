@@ -9,10 +9,10 @@
 
     <!-- Navbar Links -->
     <ul id="menu">
-      <li><a href="#home">Home</a></li><!--
-   --><li><a href="#services">Services</a></li><!--
-   --><li><a href="#about">About</a></li><!--
-   --><li><a href="#contact">Contact</a></li>
+      <li><a onclick="header_text()">Home</a></li><!--
+   --><li><a onclick="header_skill()">Services</a></li><!--
+   --><li><a onclick="header_logo()">About</a></li><!--
+   --><li><a onclick="header_text()">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -27,9 +27,9 @@
 
 <div class="overlay-menu">
   <ul id="menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a onclick="header_text()">Me</a></li>
+      <li><a onclick="header_skill()">Skill</a></li>
+      <li><a onclick="header_logo()">Logo</a></li>
+      <li><a onclick="header_text()">Contact</a></li>
     </ul>
 </div>

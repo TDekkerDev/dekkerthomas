@@ -5,7 +5,7 @@
     AOS.init();
   </script>
 
-  <div class="container_header shadow-diffuse" >
+  <div id="header_text" class="container_header shadow-diffuse" >
     <div class="container_header_text">
       <article>
       <br>
@@ -22,7 +22,7 @@
       <img class="Photoname" src="/media/img/thomas.jpg" alt="Thomas dekker" id = "thomas"><br><br>
   </div>
 
-  <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_skills shadow-diffuse" >
+  <div id="header_skill" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_skills shadow-diffuse" >
     <article>
             <h2>skills</h2><br>
             <h3 class = "skillstext">php:</h3><div class = "skillsbar"><div id = "skillsphp"></div></div>
@@ -34,8 +34,15 @@
   </div>
 
 
-  <div data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_logo shadow-diffuse" >
+  <div id="header_logo" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_logo shadow-diffuse" >
     <img src="/media/img/logo-explanation.jpg" alt="logo-explanation">
+  </div>
+
+  <div id="header_portfolio" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_logo shadow-diffuse" >
+    <img src="/media/img/portfolio.jpg" alt="portfolio">
+    <a href="/media/pdf/portfolio.pdf" download="GFG">
+      <button type="button">Download</button>
+    </a>
   </div>
 
 
