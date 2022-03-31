@@ -13,6 +13,8 @@
     <link rel="manifest" href="/media/favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/shadow.css">
     <link rel="stylesheet" href="/css/animista.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +26,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/buttons.css">
     <link rel="stylesheet" href="/css/style.css">
+
 
     <title>dekkerthomas</title>
 </head>
