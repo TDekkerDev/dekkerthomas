@@ -40,15 +40,14 @@
 
 
   <div id="header_portfolio" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_portfolio shadow-diffuse" >
-    <img src="/media/img/portfolio.png" alt="portfolio">
+    <img src="/media/img/portfolio.PNG" alt="portfolio">
     <a href="/media/pdf/portfolio.pdf" download="portfolio">
       <button type="button">Download</button>
     </a>
   </div>
 
   <div id="header_contact" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_contact shadow-diffuse" >
-    <img src="/media/img/portfolio.png" alt="portfolio">
-    <a href="/media/pdf/portfolio.pdf" download="portfolio">
+  
       <button type="button">Download</button>
     </a>
   </div>
