@@ -33,23 +33,24 @@
     </article>
   </div>
 
+  <div id="header_portfolio" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_portfolio shadow-diffuse" >
+    <img id = "portfolio" src="/media/img/portfolio.PNG" alt="portfolio">
+    <a href="/media/pdf/portfolio.pdf" download="portfolio">
+      <button  id = "portfolio_downlode" type="button"><i class="fa fa-download"></i>  Download</button>
+    </a>
+  </div>
 
   <div id="header_logo" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_logo shadow-diffuse" >
     <img src="/media/img/logo-explanation.jpg" alt="logo-explanation">
   </div>
 
-
-  <div id="header_portfolio" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_portfolio shadow-diffuse" >
-    <img src="/media/img/portfolio.PNG" alt="portfolio">
-    <a href="/media/pdf/portfolio.pdf" download="portfolio">
-      <button type="button">Download</button>
-    </a>
-  </div>
-
   <div id="header_contact" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_contact shadow-diffuse" >
-  
-      <button type="button">Download</button>
-    </a>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <lottie-player onclick="github()" src="https://assets3.lottiefiles.com/packages/lf20_cwqf5i6h.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   ></lottie-player>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <lottie-player onclick="linkedin()" src="https://assets2.lottiefiles.com/packages/lf20_lxlh9ct5.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   ></lottie-player>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <lottie-player onclick="email()" src="https://assets6.lottiefiles.com/packages/lf20_9yi1cm7i.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   ></lottie-player>
   </div>
 
 

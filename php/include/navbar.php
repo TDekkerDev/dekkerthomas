@@ -9,10 +9,11 @@
 
     <!-- Navbar Links -->
     <ul id="menu">
-      <li><a onclick="header_text()">Home</a></li><!--
-   --><li><a onclick="header_skill()">Services</a></li><!--
-   --><li><a onclick="header_logo()">About</a></li><!--
-   --><li><a onclick="header_text()">Contact</a></li>
+    <li><a onclick="header_text()">me</a></li>
+    <li><a onclick="header_skill()">Skill</a></li>
+    <li><a onclick="header_portfolio()">portfolio</a></li>
+    <li><a onclick="header_logo()">logo</a></li>
+    <li><a onclick="header_Contact()">Contact</a></li>
     </ul>
   </div>
 </nav>
@@ -27,9 +28,10 @@
 
 <div class="overlay-menu">
   <ul id="menu">
-      <li><a onclick="header_text()">Me</a></li>
-      <li><a onclick="header_skill()">Skill</a></li>
-      <li><a onclick="header_logo()">Logo</a></li>
-      <li><a onclick="header_text()">Contact</a></li>
+    <li><a onclick="header_text()">me</a></li>
+    <li><a onclick="header_skill()">Skill</a></li>
+    <li><a onclick="header_portfolio()">portfolio</a></li>
+    <li><a onclick="header_logo()">logo</a></li>
+    <li><a onclick="header_Contact()">Contact</a></li>
     </ul>
 </div>
