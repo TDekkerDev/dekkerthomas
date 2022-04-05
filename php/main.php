@@ -19,7 +19,7 @@
 
       </article>
     </div>
-      <img class="Photoname" src="/media/img/thomas.jpg"  style="width: 95% height: 85%" alt="Thomas dekker" id = "thomas"><br><br>
+      <img class="Photoname" src="/media/img/thomas.jpg"   alt="Thomas dekker" id = "thomas"><br><br>
   </div>
 
   <div id="header_skill" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_skills shadow-diffuse" >
