@@ -41,7 +41,7 @@
   </div>
 
   <div id="header_logo" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_logo shadow-diffuse" >
-    <img src="/media/img/logo-explanation.jpg" alt="logo-explanation">
+    <img class="photolgo" src="/media/img/logo-explanation.jpg" alt="logo-explanation">
   </div>
 
   <div id="header_contact" data-aos="fade-right"  data-aos-duration="1000" data-aos-easing="ease-in-sine" class="container_contact shadow-diffuse" >
