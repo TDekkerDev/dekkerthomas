@@ -1,0 +1,44 @@
+.project-main{
+    display: flex;
+}
+
+.project{
+    margin: 10vh;
+    height: 80vh;
+    width: 60vh;
+    border: 1px solid black;
+    border-radius: 2%;
+}
+.project-title{
+    font-size: 2em;
+    text-align: center;
+    margin-top: 10px;
+}
+.project-time{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;
+}
+.project-description{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 10px;
+}
+.project-img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-image{
+    height: 50vh;
+    width: 50vh;
+    margin-top: 10px;
+}
+.project-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-button{
+    margin-top: 10px;
+}

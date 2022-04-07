@@ -4,7 +4,7 @@ $auteur = $_POST['auteur'];
 $titel = $_POST['titel'];
 $bericht = $_POST['bericht'];
 
-$target_dir = "C:/xampp/htdocs/hellowordsource/Social-Site/uplode_media/";
+$target_dir = "../uplode_media/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
 $uploadOk = 1;
 $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -16,7 +16,7 @@ if(isset($_POST["submit"])) {
     echo "File is an image - " . $check["mime"] . ".";
     $uploadOk = 1;
   } else {
-    header("Location: /hellowordsource/Social-Site/create-bericht/upload_failde_create.php");
+    header("Location: /projects/Social-Site/create-bericht/upload_failde_create.php");
     echo "File is not an image.";
     $uploadOk = 0;
     die("not a image");
@@ -32,7 +32,7 @@ if (file_exists($target_file)) {
 
 // Check file size
 if ($_FILES["fileToUpload"]["size"] > 500000) {
-  header("Location: /hellowordsource/Social-Site/create-bericht/upload_failde_create.php");
+  header("Location: /projects/Social-Site/create-bericht/upload_failde_create.php");
   echo "Sorry, your file is too large.";
   $uploadOk = 0;
   die("file too large");
@@ -41,7 +41,7 @@ if ($_FILES["fileToUpload"]["size"] > 500000) {
 // Allow certain file formats
 if($imageFileType != "jpg" && $imageFileType != "png" && $imageFileType != "jpeg"
 && $imageFileType != "gif" ) {
-  header("Location: /hellowordsource/Social-Site/create-bericht/upload_failde_create.php");
+  header("Location: /projects/Social-Site/create-bericht/upload_failde_create.php");
   echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
   $uploadOk = 0;
     die("not a image");
@@ -65,7 +65,7 @@ echo $randomnameext;
 $target_file = $target_dir . $randomnameext;
 // Check if $uploadOk is set to 0 by an error
 if ($uploadOk == 0) {
-  header("Location: /hellowordsource/Social-Site/create-bericht/upload_failde_create.php");
+  header("Location: /projects/Social-Site/create-bericht/upload_failde_create.php");
   echo "Sorry, your file was not uploaded.";
 // if everything is ok, try to upload file
 } else {

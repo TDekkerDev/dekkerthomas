@@ -53,6 +53,6 @@
   <lottie-player onclick="email()" src="https://assets6.lottiefiles.com/packages/lf20_9yi1cm7i.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   ></lottie-player>
   </div>
 
-
-
+  <script type="text/javascript" src="/js/links.js"></script>
+  <script type="text/javascript" src="/js/button-nav-main.js"></script>
 <?php include "include/footer.php"; ?>

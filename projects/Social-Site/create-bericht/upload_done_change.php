@@ -7,7 +7,7 @@
 </div>
 <script>
 setTimeout(function () {
-    window.location.href = "/hellowordsource/Social-Site/admin/show_berichten_admin.php";
+    window.location.href = "/projects/Social-Site/admin/show_berichten_admin.php";
 }, 1750);
 </script>
 <?php include "../includes/footer.php"; ?>

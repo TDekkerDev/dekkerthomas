@@ -14,6 +14,7 @@
     <li><a onclick="header_portfolio()">portfolio</a></li>
     <li><a onclick="header_logo()">logo</a></li>
     <li><a onclick="header_Contact()">Contact</a></li>
+    <li><a onclick="header_project()">project</a></li>
     </ul>
   </div>
 </nav>
@@ -33,5 +34,6 @@
     <li><a onclick="header_portfolio()">portfolio</a></li>
     <li><a onclick="header_logo()">logo</a></li>
     <li><a onclick="header_Contact()">Contact</a></li>
+    li><a onclick="header_project()">project</a></li>
     </ul>
 </div>

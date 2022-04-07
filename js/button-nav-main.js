@@ -17,12 +17,17 @@ function header_text(){
     }
     function header_logo(){
         $('html, body').animate({
-            scrollTop: $("#header_logo").offset().top-350
+            scrollTop: $("#header_logo").offset().top-340
         }, 100);
     }
 
     function header_Contact(){
         $('html, body').animate({
-            scrollTop: $("#header_contact").offset().top-350
+            scrollTop: $("#header_contact").offset().top-300
         }, 100);
     }
+
+    function header_project(){
+        window.location.href = "/php/projects.php";
+    }
+

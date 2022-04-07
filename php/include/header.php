@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/buttons.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/project.css">
     <title>dekkerthomas</title>
 </head>
 <body>

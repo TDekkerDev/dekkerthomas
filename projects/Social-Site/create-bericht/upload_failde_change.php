@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/hellowordsource/Social-Site/css/failde.css">
+    <link rel="stylesheet" href="/projects/Social-Site/css/failde.css">
     <title>Document</title>
 </head>
 <body>
 <script>
 setTimeout(function () {
-    window.location.href = "/hellowordsource/Social-Site/create-bericht/user_Bericht_form.php";
+    window.location.href = "/projects/Social-Site/create-bericht/user_Bericht_form.php";
 }, 1900);
 </script>
     

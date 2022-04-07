@@ -10,7 +10,7 @@
     $sql2 = "DELETE FROM bericht WHERE id = :id";
     $stmt2 = $db->prepare($sql2);
     $stmt2->execute(['id' => $id]);
-    unlink("C:/xampp/htdocs/hellowordsource/Social-Site/uplode_media/".$filename);
+    unlink("../uplode_media/".$filename);
     header("Location: ../create-bericht/upload_done_change.php");
     exit();
 

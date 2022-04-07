@@ -1,7 +1,7 @@
 
 
 function like(id){
-$.get("/hellowordsource/Social-Site/exstra/like.php",{id:id});
+$.get("/projects/Social-Site/exstra/like.php",{id:id});
 oldLikes = document.getElementById("likes" + id).innerHTML;
 newLikes = parseInt(oldLikes) + 1;
 document.getElementById("likes"+ id).innerHTML = newLikes;
@@ -13,7 +13,7 @@ return false;
 }
 
 function unlike( id){
-$.get("/hellowordsource/Social-Site/exstra/unlike.php",{id:id});
+$.get("/projects/Social-Site/exstra/unlike.php",{id:id});
 oldLikes = document.getElementById("likes" + id).innerHTML;
 newLikes = parseInt(oldLikes) - 1;
 document.getElementById("likes"+ id).innerHTML = newLikes;
