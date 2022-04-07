@@ -3,6 +3,7 @@
 <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216584680-2"></script>
+    
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -13,6 +14,7 @@
 
     <script type="text/javascript" defer src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" defer src="/js/jquery-3.6.0.min.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

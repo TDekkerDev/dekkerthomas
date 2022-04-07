@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-216584680-2"></script>
     <script type="text/javascript" src="/projects/Social-Site/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/projects/Social-Site/js/jquery-3.6.0.min.js"></script>
     <meta charset="UTF-8">
