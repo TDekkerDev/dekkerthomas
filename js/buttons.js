@@ -23,6 +23,5 @@ function no(){
 }
 
 function admin(){
-    alert("Admin");
-    window.location.href = "php/admin.php";
+    window.location.href = "php/admin/admin.php";
 }

@@ -8,7 +8,7 @@
     $sth->execute();
     while($row = $sth->fetch()) : 
     ?>
-        <div class="project">
+        <div class="project shadow-diffuse">
             <div class="project-title"><?php echo $row["Naam"] . "<br>";?> </div>
             <div class="project-time"><?php echo $row["TimeDate"] . "<br>";?> </div>
             <div class="project-description"><?php echo $row["Description"] . "<br>";?> </div>

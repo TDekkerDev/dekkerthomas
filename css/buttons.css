@@ -68,6 +68,7 @@
 }
 
 #admin{
+    z-index: 900;
     position: absolute;
     top: 2vh;
     transform: translateY(-50%);
@@ -76,6 +77,5 @@
 }
 
 #adminbutton {
-    z-index: 20122;
     color: rgb(63, 63, 63);
     font-size: 1.5em;}
