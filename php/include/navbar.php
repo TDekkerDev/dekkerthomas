@@ -4,7 +4,7 @@
     <!-- Navbar Logo -->
     <div class="logo">
       <!-- Logo Placeholder for Inlustration -->
-      <a href="#"><img class="logo-black" src="/media/img/logo-hor-black.png" width="170" ></a>
+      <a href="/php/main.php"><img class="logo-black" src="/media/img/logo-hor-black.png" width="170" ></a>
     </div>
 
     <!-- Navbar Links -->

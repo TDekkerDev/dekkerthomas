@@ -154,3 +154,11 @@ height: 90vh;
   height: 85%;
 }
 
+.DRZ_MainMain{
+display: flex;
+justify-content: center;
+}
+.DRZ_Main{
+  width: 25%
+  
+}
