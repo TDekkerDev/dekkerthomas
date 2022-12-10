@@ -24,34 +24,6 @@ function admin() {
   window.location.href = "php/admin/admin.php";
 }
 
-// set up text to print, each item in array is new line
-var aText = new Array(
-  "Wow,",
-  "You found such a cool mug!",
-  "Want to take a look inside?",
-  "---------------------------"
-);
-var i = 1;
-function no_mug() {
-  if (i == 1) {
-    aText.push("Are you sure?");
-    aText.push("---------------------------");
-    typewriter();
-  }
-  if (i == 2) {
-    aText.push("Please... take a look inside.");
-    aText.push("---------------------------");
-    typewriter();
-  }
-  if (i == 3) {
-    aText.push("FUCKING LOOK!!!");
-    typewriter();
-  }
-  if (i == 4) {
-    document.getElementById("no").style.display = "none";
-  }
-  i++;
-}
 var makeItRain = function () {
   //clear out everything
   $(".rain").empty();
@@ -114,7 +86,7 @@ var makeItRain = function () {
 function resume_mug() {
   document.getElementById("off").classList.add("tv_off");
   setTimeout(function () {
-    document.getElementById("spaceship").classList.add("spaceship");
+    document.getElementById("spaceship").classList.add("spaceship_1");
     makeItRain();
     setTimeout(function () {
       document.getElementById("dva").classList.add("dva");
@@ -139,12 +111,84 @@ function resume_mug() {
             rick.volume = 0.4;
             setTimeout(function () {
               rick.volume = 0.3;
+              rick.pause();
             }, 1000);
           }, 1000);
         }, 1000);
       }, 12000);
-    }, 8000);
+    }, 3500);
+    setTimeout(function () {
+      document.getElementById("mars").classList.remove("mars");
+      setTimeout(function () {
+        document.getElementById("mars").classList.add("mars");
+      }, 1000);
+    }, 5000);
+    setTimeout(function () {
+      document.getElementById("dog").classList.add("dog");
+    }, 6000);
+    setTimeout(function () {
+      document.getElementById("down").classList.remove("down_1");
+      document.getElementById("down").classList.add("down");
+    }, 14000);
+    setTimeout(function () {
+      document.getElementById("thomas_p").classList.add("thomas_p");
+    }, 14000);
+    setTimeout(function () {
+      document.getElementById("spaceship").classList.remove("spaceship_1");
+      document.getElementById("spaceship").classList.add("spaceship_2");
+      document.getElementById("rain_1").remove();
+      document.getElementById("rain_2").remove();
+      document.getElementById("thomas_p").classList.add("thomas_s");
+    }, 18000);
+    setTimeout(function () {
+      document.getElementById("spaceship").classList.remove("spaceship_2");
+      setTimeout(function () {
+        document.getElementById("thomas_p").classList.add("thomas_d");
+        document.getElementById("dva").remove();
+        document.getElementById("red").remove();
+        document.getElementById("mars").remove();
+        document.getElementById("dog").remove();
+        document.getElementById("rick").remove();
+        document.getElementById("down").remove();
+        setTimeout(function () {
+          document.getElementById("thomas_p").remove();
+          document
+            .getElementById("drink_forms")
+            .classList.remove("drink_forms_1");
+          document.getElementById("drink_forms").classList.add("drink_forms_2");
+        }, 1500);
+      }, 1500);
+    }, 19750);
   }, 2500);
+}
+
+var aText = new Array(
+  "Wow,",
+  "You found such a cool mug!",
+  "Want to take a look inside?",
+  "---------------------------"
+);
+
+var i = 1;
+function no_mug() {
+  if (i == 1) {
+    aText.push("Are you sure?");
+    aText.push("---------------------------");
+    typewriter();
+  }
+  if (i == 2) {
+    aText.push("Please... take a look inside.");
+    aText.push("---------------------------");
+    typewriter();
+  }
+  if (i == 3) {
+    aText.push("FUCKING LOOK!!!");
+    typewriter();
+  }
+  if (i == 4) {
+    document.getElementById("no").style.display = "none";
+  }
+  i++;
 }
 
 var iSpeed = 100; // time delay of print out

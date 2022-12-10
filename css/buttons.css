@@ -110,12 +110,22 @@
         100% {
           opacity: 1; } }
       
-          .spaceship {
+          .spaceship_1 {
             opacity: 0.8;
             position: inherit;
             width: 100%;
             height: 100%;
             background: url(/media/img/icon.png) no-repeat center center;
+            background-size: contain;
+            animation: spaceship 5s;
+            z-index: 5;
+          }
+          .spaceship_2 {
+            opacity: 0.8;
+            position: inherit;
+            width: 100%;
+            height: 100%;
+            background: url(/media/img/explotion.gif) no-repeat center center;
             background-size: contain;
             animation: spaceship 5s;
             z-index: 5;
@@ -134,13 +144,9 @@
                     height: 100%;
                     opacity: 0.8; }  }
             .shake{
-            position: absolute;
-            top: 20%;
-            left: 40%;
-            transform: translate(-50%, -50%);
-            opacity: 0.8;
-            width: 12.5%;
-            height: 12.5%;
+            position: inherit;
+            width: 100%;
+            height: 100%;
             background-size: inherit;
             animation: shake 0.8s infinite;
             }
@@ -156,6 +162,32 @@
               80% { transform: translate(-1px, -1px) rotate(1deg); }
               90% { transform: translate(1px, 2px) rotate(0deg); }
               100% { transform: translate(1px, -2px) rotate(-1deg); }  }
+              .down_1{
+                position: absolute;
+                top: 20%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0.8;
+                width: 12.5%;
+                height: 12.5%;
+              }
+
+              .down{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                opacity: 0.8;
+                width: 12.5%;
+                height: 12.5%;
+                animation: down 4s linear;
+              }
+
+              @keyframes down {
+                from  {
+                  top: 20% }
+                to {
+                  top: 80%; } }
               
               .rain {
                 
@@ -221,16 +253,59 @@
               }
               @keyframes moeve {
                 0% {
+                  top:100vh;
+                  opacity: 0;
+                  rotate: 0deg;
+                }
+                10% {
                   top:90vh;
                   opacity: 1;
+                  rotate: 36deg;
+                }
+                20% {
+                  top:80vh;
+                  opacity: 1;
+                  rotate: 72deg;
+                }
+                30% {
+                  top:70vh;
+                  opacity: 1;
+                  rotate: 108deg;
+                }
+                40% {
+                  top:60vh;
+                  opacity: 1;
+                  rotate: 144deg;
+                }
+                50% {
+                  top:50vh;
+                  opacity: 1;
+                  rotate: 180deg;
+                }
+                60% {
+                  top:40vh;
+                  opacity: 1;
+                  rotate: 216deg;
+                }
+                70% {
+                  top:30vh;
+                  opacity: 1;
+                  rotate: 252deg;
+                }
+                80% {
+                  top:20vh;
+                  opacity: 1;
+                  rotate: 288deg;
                 }
                 90% {
                   top:10vh;
                   opacity: 1;
+                  rotate: 324deg;
                 }
                 100% {
                   top:0vh;
                   opacity: 0;
+                  rotate: 360deg;
                 }
               }
 
@@ -257,7 +332,7 @@
                 top: 0vh;
                 left: 60vw;
                 height: 10%;
-                animation: moeve 6s linear ;
+                animation: moeve 4s linear ;
                 opacity: 0;
               }
             
@@ -266,12 +341,121 @@
                 top: 0vh;
                 left: 10vw;
                 height: 15%;
-                animation: moeve 15s linear ;
+                animation: moeve 10s linear ;
                 opacity: 0;
               }
-            
-              
+
+              .dog{
+                position: absolute;
+                top: 0vh;
+                left: 50vw;
+                height: 15%;
+                animation: moeve 5s linear ;
+                opacity: 0;
+              }
+
+              .thomas_p{
+                animation: thomas_P 4s linear;
+                position: absolute;
+                top: 80%;
+                left: 0vw;
+                height: 25%;
+                opacity: 0.8;
+              }
+              @keyframes thomas_P {
+                0% {
+                  top: 100%;
+                }
+                100% {
+                  top: 80%;
+                }
+              }
+
+              .thomas_s{
+                animation: shake 0.8s infinite;
+              }
+
+              .thomas_d{
+                animation: thomas_d 3s linear;
+                top: 100%;
+                left: 0vw;
+              }
+              @keyframes thomas_d {
+                0% { transform: translate(-1px, 1px) rotate(0deg); top: 80%; opacity: 1;}
+                10% { transform: translate(-1px, -2px) rotate(-1deg); top: 82%; opacity: 0.9;}
+                20% { transform: translate(-3px, 0px) rotate(1deg); top: 84%; opacity: 0.8;}
+                30% { transform: translate(3px, 2px) rotate(0deg); top: 86%; opacity: 0.7;}
+                40% { transform: translate(1px, -1px) rotate(1deg); top: 88%; opacity: 0.6;}
+                50% { transform: translate(-1px, 2px) rotate(-1deg); top: 90%; opacity: 0.5;}
+                60% { transform: translate(-3px, 1px) rotate(0deg); top: 92%; opacity: 0.4;}
+                70% { transform: translate(3px, 1px) rotate(-1deg); top: 94%; opacity: 0.3;}
+                80% { transform: translate(-1px, -1px) rotate(1deg); top: 96%; opacity: 0.2;}
+                90% { transform: translate(1px, 2px) rotate(0deg); top: 98%; opacity: 0.1;}
+                100% { transform: translate(1px, -2px) rotate(-1deg); top: 100%; opacity: 0;}  }
               html, body {margin: 0; height: 100%; overflow: hidden}
+
+              #text_drink{
+                color: #fff;
+              }
+              .drink_forms_1{
+                margin-top:5vh;
+                display: none;
+                position: absolute;
+                top: 0%;
+                left: 25%;
+                width: 100%;
+                height: 100%;
+                z-index: 3;
+              }
+              .drink_forms_2{
+                margin-top:5vh;
+                position: absolute;
+                top: 0%;
+                left: 25%;
+                width: 100%;
+                height: 100%;
+                z-index: 3;
+                animation: scale-in-ver-top 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              }
+
+                @keyframes scale-in-ver-top {
+                  0% {
+                    transform: scaleY(0);
+                    transform-origin: 100% 0%;
+                    opacity: 1;
+                  }
+                  100% {
+                    transform: scaleY(1);
+                    transform-origin: 100% 0%;
+                    opacity: 1;
+                  }
+                }
+
+              .drink_button {
+                width:191px;
+                max-width:10em;
+                margin: 1em;
+                outline: 0;
+                font-size: 1em;
+                font-weight: 600;
+                background: #fff;
+                border: none;
+                padding: 2em 4em;
+                -webkit-transition: all .3s ease-out;
+                transition: all .3s ease-out;
+                -webkit-box-shadow: inset 0 -8px 0 0 rgba(0, 0, 0, 0.2), 1px 1px 0 0 #d98e20, 2px 2px 0 0 #d98e20, 3px 3px 0 0 #d98e20, 4px 4px 0 0 #d98e20, 5px 5px 0 0 #d98e20, 6px 6px 0 0 #d98e20, 7px 7px 0 0 #d98e20, 8px 8px 0 0 #d98e20, 9px 9px 0 0 #d98e20, 10px 10px 0 0 #d98e20, 11px 11px 0 0 #d98e20, 12px 12px 0 0 #d98e20;
+                        box-shadow: inset 0 -8px 0 0 rgba(0, 0, 0, 0.2), 1px 1px 0 0 #d98e20, 2px 2px 0 0 #d98e20, 3px 3px 0 0 #d98e20, 4px 4px 0 0 #d98e20, 5px 5px 0 0 #d98e20, 6px 6px 0 0 #d98e20, 7px 7px 0 0 #d98e20, 8px 8px 0 0 #d98e20, 9px 9px 0 0 #d98e20, 10px 10px 0 0 #d98e20, 11px 11px 0 0 #d98e20, 12px 12px 0 0 #d98e20;
+            }
+            
+            .drink_button:hover {
+                color: #444;
+            }
+            
+            .drink_button:active {
+                color: #222;
+                -webkit-box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2), 1px 1px 0 0 #d98e20, 2px 2px 0 0 #d98e20, 3px 3px 0 0 #d98e20, 4px 4px 0 0 #d98e20, 5px 5px 0 0 #d98e20;
+                        box-shadow: inset 0 -4px 0 0 rgba(0, 0, 0, 0.2), 1px 1px 0 0 #d98e20, 2px 2px 0 0 #d98e20, 3px 3px 0 0 #d98e20, 4px 4px 0 0 #d98e20, 5px 5px 0 0 #d98e20;
+            }
               
               
               

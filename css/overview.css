@@ -1,0 +1,26 @@
+.pie_text_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    margin-top: 10vh;
+    font-family: monospace;
+}
+.pie_text_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: monospace;
+}
+.pie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    font-family: monospace;
+}
+.myPieChart{
+    width: 50vh;
+    height: 50vh;
+}
