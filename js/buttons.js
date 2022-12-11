@@ -100,7 +100,7 @@ function resume_mug() {
     setTimeout(function () {
       document.getElementById("rick").classList.add("rick");
       var rick = document.getElementById("rick");
-      rick.play();
+      // rick.play();
       rick.currentTime = 0;
       rick.volume = 1;
       setTimeout(function () {
