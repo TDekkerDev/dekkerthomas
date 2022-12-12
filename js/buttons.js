@@ -84,9 +84,16 @@ var makeItRain = function () {
 };
 
 function resume_mug() {
+  var explosion = document.getElementById("audio_explosion");
+  var spaceship = document.getElementById("audio_spaceship");
+  var tv = document.getElementById("audio_tv");
+  var rick = document.getElementById("rick");
+  tv.play();
   document.getElementById("off").classList.add("tv_off");
   setTimeout(function () {
     document.getElementById("spaceship").classList.add("spaceship_1");
+    spaceship.volume = 0.2;
+    spaceship.play();
     makeItRain();
     setTimeout(function () {
       document.getElementById("dva").classList.add("dva");
@@ -99,23 +106,22 @@ function resume_mug() {
     }, 3500);
     setTimeout(function () {
       document.getElementById("rick").classList.add("rick");
-      var rick = document.getElementById("rick");
-      // rick.play();
+      rick.play();
       rick.currentTime = 0;
-      rick.volume = 1;
+      rick.volume = 0.5;
       setTimeout(function () {
-        rick.volume = 0.8;
+        rick.volume = 0.4;
         setTimeout(function () {
-          rick.volume = 0.6;
+          rick.volume = 0.3;
           setTimeout(function () {
-            rick.volume = 0.4;
+            rick.volume = 0.2;
             setTimeout(function () {
-              rick.volume = 0.3;
+              rick.volume = 0.1;
               rick.pause();
             }, 1000);
           }, 1000);
         }, 1000);
-      }, 12000);
+      }, 7500);
     }, 3500);
     setTimeout(function () {
       document.getElementById("mars").classList.remove("mars");
@@ -134,6 +140,9 @@ function resume_mug() {
       document.getElementById("thomas_p").classList.add("thomas_p");
     }, 14000);
     setTimeout(function () {
+      spaceship.pause();
+      explosion.play();
+      explosion.volume = 0.5;
       document.getElementById("spaceship").classList.remove("spaceship_1");
       document.getElementById("spaceship").classList.add("spaceship_2");
       document.getElementById("rain_1").remove();

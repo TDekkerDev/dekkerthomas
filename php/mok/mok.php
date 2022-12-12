@@ -8,6 +8,7 @@
                             <div id="boxing">
                                 <button onclick="resume_mug()" id="resume"><span>yes</span></button>
                                 <button onclick="no_mug()" id="no"><span>no</span></button>
+                                
                             </div>
                             </div>
                     </div>
@@ -22,6 +23,9 @@
     <img id="dog" src="/media/img/dog.png" style="display: hidden;">
     <img id="thomas_p" src="/media/img/thomas_planit.png" style="display: hidden;">
     <video id="rick" style="display: hidden;" src="/media/video/never.mp4"></video>
+    <audio id="audio_spaceship" style="display: hidden;"><source src="/media/video/Spaceship.mp3" type="audio/mp3"></audio>
+    <audio id="audio_explosion" style="display: hidden;"><source src="/media/video/explosion.mp3" type="audio/mp3"></audio>
+    <audio id="audio_tv" style="display: hidden;"><source src="/media/video/tv.mp3" type="audio/mp3"></audio>
     <div id="drink_forms" class="drink_forms_1">
         <h6 id="text_drink">What's in your mug right now?</h6>
         <div class="dorm_drink">
