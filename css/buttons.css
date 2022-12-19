@@ -392,7 +392,7 @@
                 80% { transform: translate(-1px, -1px) rotate(1deg); top: 96%; opacity: 0.2;}
                 90% { transform: translate(1px, 2px) rotate(0deg); top: 98%; opacity: 0.1;}
                 100% { transform: translate(1px, -2px) rotate(-1deg); top: 100%; opacity: 0;}  }
-              html, body {margin: 0; height: 100%; overflow: hidden}
+           
 
               #text_drink{
                 color: #fff;

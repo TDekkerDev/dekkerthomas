@@ -1,4 +1,5 @@
 <?php include "../include/header.php"; ?>
+<link rel="stylesheet" href="/css/mok.css">
 <div id="mainmok">
     <div id="off">
         <div class="screen-content">
