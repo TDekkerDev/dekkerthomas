@@ -3,13 +3,15 @@
 <head>
 
     
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9XEVTB7X3W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    gtag('config', 'UA-216584680-2');
-    </script>
+  gtag('config', 'G-9XEVTB7X3W');
+</script>
 
     <script type="text/javascript" defer src="/js/bootstrap.min.js"></script>
     <script type="text/javascript" defer src="/js/jquery-3.6.0.min.js"></script>
