@@ -1,10 +1,19 @@
 <div id="main">
 <?php include "include/header.php"; ?>
 <?php include "include/navbar.php"; ?>
+<div style="display: none;" id="phone">
+    <h1> sorry website on phone not available yet!</h1>
+</div>
+
+<div style="display: none;" id="Tablet">
+    <h1> sorry website on Tablet not available yet!</h1>
+</div>
+
+
   <script>
     AOS.init();
   </script>
-
+<div style="display: none;" id="desktop">
   <div id="header_text" class="container_header shadow-diffuse" >
     <div class="container_header_text">
       <article>
@@ -52,6 +61,8 @@
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
   <lottie-player onclick="email()" src="https://assets6.lottiefiles.com/packages/lf20_9yi1cm7i.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;" hover   ></lottie-player>
   </div>
+</div>
+
 
   <script type="text/javascript" src="/js/links.js"></script>
   <script type="text/javascript" src="/js/button-nav-main.js"></script>
